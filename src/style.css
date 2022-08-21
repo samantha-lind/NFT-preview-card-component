@@ -9,12 +9,17 @@
 body {
   background-color: var(--darkest-blue) !important;
   font-family: "Outfit", sans-serif !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
 }
 
 main {
   width: 350px;
   display: block;
-  margin: 50px auto 20px;
   background-color: var(--dark-blue);
   border-radius: 10px;
   height: 560px;

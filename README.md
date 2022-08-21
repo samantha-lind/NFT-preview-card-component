@@ -44,6 +44,8 @@ My use of Bootstrap Grid has improved a lot, I found the layout quite easy to ge
 
 I found I had to use !important to get some of my CSS styles to take - I am assuming this is because they were clashing with the Bootstrap default variables.
 
+I was using margin properties on the main component to try to center, but this wasn't vertically aligning. Instead, I changed the body to a flex container and the height to 100vh - this allowed me to position the element correctly.
+
 ### Continued development
 
 The image overlay took me a while to get right - this is a technique I'll keep practicing.
