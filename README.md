@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/samantha-lind/NFT-preview-card-component
+- Live Site URL: https://helpful-mandazi-ca9900.netlify.app/
 
 ## My process
 
@@ -46,9 +46,7 @@ I found I had to use !important to get some of my CSS styles to take - I am assu
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+The image overlay took me a while to get right - this is a technique I'll keep practicing.
 
 ### Useful resources
 
