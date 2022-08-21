@@ -11,12 +11,57 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
 
     <title>NFT Preview Card Component</title>
   </head>
   <body>
     <main>
-      
+      <div class="image">
+        <a href="#"><img
+          src="/images/image-equilibrium.jpg"
+          alt="Equilibrium NFT"
+          class="main-image"
+        /></a>
+      <div class="overlay"><img src="/images/icon-view.svg" class="icon"></div>
+
+      <div>
+        <a href="#"><h1>Equilibrium #3429</h1></a>
+        <p class="description">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+      </div>
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-1 ps-0">
+            <img
+              src="/images/icon-ethereum.svg"
+              alt="Etherium icon"
+              class="eth"
+            />
+          </div>
+          <div class="col-2 ps-1">
+            <h2>0.042ETH</h2>
+          </div>
+          <div class="col-4"></div>
+          <div class="col-1 pe-0">
+            <img src="./images/icon-clock.svg" alt="Clock icon" />
+          </div>
+        <div class="col-3 ps-0 pe-1"><p>3 days left</p></div>
+         <div class="col-1"></div>
+         <hr />
+      </div>
+
+      <div class="container text-center">
+        <div class="row pt-3">
+          <div class="col-1 ps-1"><img src="./images/image-avatar.png" alt="Avatar" class="avatar"></div>
+          <div class="col-10 ps-3 pt-1 text-start"><p>Creation of <a href="#">Jules Wyvern</a></p></div>
     </main>
   </body>
 </html>

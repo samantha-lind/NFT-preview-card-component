@@ -1,12 +1,115 @@
+:root {
+  --cyan: hsl(178, 100%, 50%);
+  --darkest-blue: hsl(217, 54%, 11%);
+  --dark-blue: hsl(216, 50%, 16%);
+  --soft-blue: hsl(215, 51%, 70%);
+  --darker-blue: hsl(215, 32%, 27%);
+}
+
 body {
-  background-color: hsl(217, 54%, 11%) !important;
+  background-color: var(--darkest-blue) !important;
+  font-family: "Outfit", sans-serif !important;
 }
 
 main {
   width: 350px;
   display: block;
   margin: 90px auto;
-  background-color: hsl(216, 50%, 16%);
+  background-color: var(--dark-blue);
   border-radius: 10px;
-  height: 650px;
+  height: 560px;
+}
+
+h1 {
+  color: white;
+  padding-left: 20px;
+  font-size: 25px !important;
+}
+
+h2 {
+  display: inline;
+  color: var(--cyan);
+  font-weight: 500;
+  font-size: 18px !important;
+  padding-left: 5px;
+}
+
+p {
+  color: var(--soft-blue) !important;
+  font-weight: 300 !important;
+  font-size: 15px !important;
+}
+
+hr {
+  color: hsl(215, 32%, 27%) !important;
+  width: 90% !important;
+  margin: 0 20px !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+a:hover,
+h1:hover {
+  color: var(--cyan) !important;
+}
+
+.description {
+  color: var(--cyan);
+  font-size: 18px;
+  font-weight: 300 !important;
+  padding: 0 20px;
+}
+
+.main-image {
+  width: 310px;
+  border-radius: 15px;
+  margin: 20px 20px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.eth {
+  padding-left: 20px;
+}
+
+.avatar {
+  width: 30px;
+  border: 1px solid white;
+  border-radius: 25px;
+}
+
+.overlay {
+  height: 310px;
+  width: 310px;
+  background-color: rgba(0, 255, 247, 0.4) !important;
+  z-index: 3 !important;
+  position: absolute;
+  border-radius: 15px;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+}
+
+.overlay:hover {
+  opacity: 1 !important;
+  cursor: pointer;
+}
+
+.image {
+  position: relative;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-top: 40%;
 }
