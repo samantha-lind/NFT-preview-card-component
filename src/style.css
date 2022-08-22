@@ -6,9 +6,8 @@
   --darker-blue: hsl(215, 32%, 27%);
 }
 
-body {
-  background-color: var(--darkest-blue) !important;
-  font-family: "Outfit", sans-serif !important;
+.body {
+  background-color: var(--darkest-blue);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,65 +16,60 @@ body {
   margin: 0;
 }
 
-main {
+.main {
   width: 350px;
   display: block;
   background-color: var(--dark-blue);
   border-radius: 10px;
-  height: 560px;
+  height: 580px;
+  font-family: "Outfit", sans-serif;
 }
 
-h1 {
+.headline {
   color: white;
   padding-left: 20px;
-  font-size: 25px !important;
+  font-size: 25px;
 }
 
-h2 {
+.etherium {
   display: inline;
   color: var(--cyan);
   font-weight: 500;
-  font-size: 18px !important;
+  font-size: 18px;
   padding-left: 5px;
 }
 
-p {
-  color: var(--soft-blue) !important;
-  font-weight: 300 !important;
-  font-size: 15px !important;
+#line {
+  color: hsl(215, 32%, 27%);
+  max-width: 300px;
+  margin: 0 20px;
+  padding: 10px 0px;
 }
 
-hr {
-  color: hsl(215, 32%, 27%) !important;
-  width: 90% !important;
-  margin: 0 20px !important;
-}
-
-a {
-  text-decoration: none !important;
-  color: white !important;
-}
-
-a:hover,
-h1:hover {
-  color: var(--cyan) !important;
-}
-
-footer {
+.footer {
   display: block;
   margin: 0 auto;
   text-align: center;
+  margin-top: 0px;
   font-size: 12px;
   color: white;
-  margin-top: 0px;
   font-weight: 300;
+  padding-top: 20px;
 }
 
 .description {
-  color: var(--cyan);
+  color: var(--soft-blue);
   font-size: 18px;
-  font-weight: 300 !important;
+  font-weight: 300;
+}
+
+.padding {
   padding: 0 20px;
+}
+
+.summary {
+  color: white;
+  font-weight: 300;
 }
 
 .main-image {
@@ -103,8 +97,8 @@ footer {
 .overlay {
   height: 310px;
   width: 310px;
-  background-color: rgba(0, 255, 247, 0.4) !important;
-  z-index: 3 !important;
+  background-color: rgba(0, 255, 247, 0.4);
+  z-index: 3;
   position: absolute;
   border-radius: 15px;
   top: 20px;
@@ -115,7 +109,7 @@ footer {
 }
 
 .overlay:hover {
-  opacity: 1 !important;
+  opacity: 1;
   cursor: pointer;
 }
 
@@ -127,6 +121,15 @@ footer {
   width: 50px;
   height: 50px;
   margin-top: 40%;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--cyan);
 }
 
 @media (max-width: 400px) {
